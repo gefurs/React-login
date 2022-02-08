@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-login/static/css/main.73299259.css",
+    "main.js": "/react-login/static/js/main.9850d431.js",
+    "static/js/787.c6eb3a31.chunk.js": "/react-login/static/js/787.c6eb3a31.chunk.js",
+    "static/media/pink-hearts-background.jpg": "/react-login/static/media/pink-hearts-background.eff27d76a2f47ff1d1ae.jpg",
+    "index.html": "/react-login/index.html",
+    "main.73299259.css.map": "/react-login/static/css/main.73299259.css.map",
+    "main.9850d431.js.map": "/react-login/static/js/main.9850d431.js.map",
+    "787.c6eb3a31.chunk.js.map": "/react-login/static/js/787.c6eb3a31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73299259.css",
+    "static/js/main.9850d431.js"
+  ]
+}
