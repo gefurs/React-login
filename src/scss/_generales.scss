@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: $fondo-principal  url("../assets/pink-hearts-background.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    /* Escritorio pequeño / tablet */
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        background-position: left;
+    }
+    /* Tablets y phablets */
+    @media only screen and (min-width: 576px) and (max-width: 767px){
+        background-position: left;
+    }
+    /* Teléfonos */
+    @media only screen and (max-width: 575px){
+        background-position: left;
+    }
+}

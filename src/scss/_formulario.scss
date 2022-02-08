@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form-container {
+        background-color: $fondo-secundario;
+        border: 2px solid $color-bordes;
+        width: 250px;
+        height: 250px;
+        padding: 2rem;
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            .form-title {
+                color: $fuente-primaria;
+                font-size: 1rem;
+            }   
+            label {
+                display: none;
+            }
+            input {
+                background-color: $fondo-principal;
+                border: 2px solid $color-bordes;
+                padding: 0.2rem;
+                width: 100%;
+            }
+            button {
+                background-color: $fondo-button;
+                border: 2px solid $color-bordes;
+                color: $color-boton;
+                padding: 0.2rem;
+                width: 100%;
+            }
+        }
+    }
+}
